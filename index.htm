@@ -1,0 +1,95 @@
+         <!doctype HTML>
+<html>
+    <head>
+        <title> 10.31.17 </title>
+        <style>
+        
+           img {
+              width:150px;
+
+        }
+        input{
+            width:50px;
+
+        }
+        div{
+            background-color: royalblue;
+            width:300px
+
+        }
+        </style>
+        <script>
+        /*
+        Jonathan Mavashev
+        11/8/17
+        eCommerce project: sales of 3 items
+        */
+            p1 = 10; Op1 = 6;
+            p2 = 13; Op2 = 8;
+            p3 = 30; Op3 = 15;
+
+
+        function initPrices() {
+            document.getElementById("span1").innerHTML = "Price: $"+p1;
+            document.getElementById("span2").innerHTML = "Price: $"+p2;
+            document.getElementById("span3").innerHTML = "Price: $"+p3;
+        }
+
+        function ProcessOrder(){
+
+        }
+        </script>
+    </head>
+    <body onload="initPrices()">
+        <h1> Jonny's Sports Authority </h1>
+
+        <div>
+            <img src="trumpfidget.png"><br>
+            <p>Donald Trump Limited Edition Fidget Spinner</p><br>
+            <span id="span1"></span>
+            <input type="text" id="qty1" placeholder="Quantity#">
+        </div>
+        
+        
+        <hr>
+
+        <div>
+            <img src="hockeypuck.png"><br>
+            <p>New Jersey Devil's Hockey Puck </p><br>
+            <span id="span2"></span>
+            <input type="text" id="qty2" placeholder= "Quantity#">
+        </div>
+
+        <div>
+            <img src="basketball.png"><br>
+            <p>  Indoor/Outdoor Basketball</p><br>
+            <span id="span3"></span>
+            <input type="text" id="qty3" placeholder= "Quantity#">
+        </div>
+
+        <button onclick="ProcessOrder()"> process Order </button>
+        <br>
+        <div id="output"></div>
+    </body>
+    </html>
+
+
+
+
+
+
+
+
+
+
+    
+
+        
+           
+
+
+
+
+
+
+
